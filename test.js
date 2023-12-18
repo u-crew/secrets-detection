@@ -3,6 +3,8 @@ const mysql = require('mysql2');
 
 const app = express();
 
+const password = 'password';
+
 const connection = mysql.createConnection({
   host: 'sql://localhost:1234',
   user: 'user',
