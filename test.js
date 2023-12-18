@@ -5,6 +5,10 @@ const app = express();
 
 const password = 'password';
 
+var token = '12345';
+
+var secret = '6789';
+
 const connection = mysql.createConnection({
   host: 'sql://localhost:1234',
   user: 'user',
